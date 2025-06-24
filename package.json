@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/lucasbpaiva/restaurant-page/issues"
   },
-  "homepage": "https://github.com/lucasbpaiva/restaurant-page#readme"
+  "homepage": "https://github.com/lucasbpaiva/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
 }
