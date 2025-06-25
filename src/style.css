@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -22,8 +24,37 @@ nav {
     gap: 20px;
 }
 
+button {
+    cursor: pointer;
+}
+
 #content {
-    width: 50%;
-    aspect-ratio: 4 / 3;
+    position: relative;
+    text-align: center;
+    width: 55%;
+    display: flex;
     background-color: gold;
+    font-family: "Lato", sans-serif;
+}
+
+img {
+    width: 100%;
+    height: fit-content;
+}
+
+.hero {
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 15%;
+
+    /* center horizontally */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2em;
+    margin: 0 auto;
 }
