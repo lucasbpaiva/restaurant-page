@@ -1,3 +1,4 @@
 import "./style.css";
+import { loadHomepage } from "./home";
 
-console.log("Hi!");
+loadHomepage();
