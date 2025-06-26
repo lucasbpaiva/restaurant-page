@@ -21,4 +21,4 @@ export const loadHomepage = function() {
     textBox.appendChild(subtitle);
 
     container.appendChild(textBox);
-}
+};
