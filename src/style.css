@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rebeccapurple;
+    background-color: #ec5c39;
 }
 
 .container {
@@ -39,7 +39,7 @@ button {
 
 img {
     width: 100%;
-    height: fit-content;
+    max-height: fit-content;
 }
 
 .hero {
